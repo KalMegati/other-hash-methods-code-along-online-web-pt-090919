@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values.reduce { |
+  groceries.values.reduce { |list, group| 
 end
